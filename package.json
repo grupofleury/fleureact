@@ -1,12 +1,13 @@
 {
-  "name": "@pedronauck/gatsby-starter-docz",
-  "description": "Gatsby starter with Docz and a blog for your documentation",
+  "name": "@grupofleury/fleureact",
+  "description": "Grupo Fleury's UI Kit",
   "version": "0.0.1",
-  "author": "Pedro Nauck <pedronauck@gmail.com>",
+  "author": "Luiz Cieslak <luiz.cieslak@grupofleury.com.br>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
     "docz": "1.0.3",
     "docz-theme-default": "1.0.3",
     "gatsby": "^2.3.23",
@@ -14,6 +15,7 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.34",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-typography": "^2.2.13",
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^3.0.10",
@@ -29,8 +31,9 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
+    "reakit": "^1.0.0-beta.2",
     "rebass": "^3.1.0",
-    "styled-components": "^4.2.0",
+    "styled-components": "^4.2.1",
     "typeface-source-sans-pro": "^0.0.54",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
@@ -38,7 +41,7 @@
   "devDependencies": {
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/pedronauck/gatsby-starter-docz#readme",
+  "homepage": "https://github.com/grupofleury/fleureact#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedronauck/gatsby-starter-docz.git"
+    "url": "git+https://github.com/grupofleury/fleureact.git"
   },
   "scripts": {
     "build": "gatsby build",
